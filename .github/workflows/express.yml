@@ -11,7 +11,7 @@ on:
 jobs:
   # 定义一个 job，id 为 build
   build:
-    # 指定任务执行的运行器。latest 表示是 GitHub 提供的最新稳定映像，但可能不是操作系统供应商提供的最新版本
+    # 指定任务执行的运行器。latest 表示是 GitHub 提供的最新稳定映像，但可能不是操作系统供应商提供的最新版本.
     runs-on: ubuntu-latest
 
     # 定义 job 的具体步骤
