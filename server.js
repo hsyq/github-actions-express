@@ -11,7 +11,7 @@ app.get("/api/users", (req, res) => {
       'email': '@email'
     }]
   })
-
+  console.log(req.method, req.url)
   res.status(200)
   res.json(userList)
 })
